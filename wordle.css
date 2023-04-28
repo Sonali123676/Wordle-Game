@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+
+  background: linear-gradient(
+    150deg,
+    rgb(174, 174, 246) 50%,
+    rgb(111, 111, 217) 50%
+  );
+}
+#title {
+  font-family: "Creepster", cursive;
+  font-size: 36px;
+  letter-spacing: 2.5px;
+  padding: 20px;
+  margin: 10px;
+}
+.board {
+  width: 100%;
+  margin: 10px;
+}
+.words-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.word-row {
+  display: flex;
+  flex-direction: row;
+}
+.word {
+  border: 1px solid black;
+  font-size: large;
+
+  width: 4em;
+  height: 4em;
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+}
+.keyboard {
+  padding: 25px;
+}
+.keyboard button {
+  background-color: rgb(62, 3, 62);
+  color: aliceblue;
+  border: 1px solid black;
+  padding: 1em;
+  margin-bottom: 0.4em;
+  margin-top: 0.4em;
+  cursor: pointer;
+  border-radius: 0.6em;
+}
+.word-green {
+  background-color: #5bd08e;
+  color: black;
+}
+.word-yellow {
+  background-color: #f2f252;
+  color: black;
+}
+.word-grey {
+  background-color: #828583;
+  color: black;
+}
